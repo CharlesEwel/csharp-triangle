@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Triangle!</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  </head>
+  <body>
+    <h1>Fill in your triangle information! Positive integers only please.</h1>
+    <form action='/triangle_info'>
+      <div class='form-group'>
+        <label for='side1'>Side1:</label>
+        <input id='side1' name='side1' class='form-control' type='number' min=0>
+      </div>
+      <div class='form-group'>
+        <label for='side2'>Side2:</label>
+        <input id='side2' name='side2' class='form-control' type='number' min=0>
+      </div>
+      <div class='form-group'>
+        <label for='side3'>Side3:</label>
+        <input id='side3' name='side3' class='form-control' type='number' min=0>
+      </div>
+      <button type='submit' class='btn'>Go!</button>
+    </form>
+  </body>
+</html>
